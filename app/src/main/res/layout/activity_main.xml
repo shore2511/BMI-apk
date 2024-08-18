@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:id="@+id/Mainlay">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="number"
+        android:hint="@string/InpHeiFeet"
+        android:id="@+id/InpHeiFeet"
+        android:layout_marginBottom="12dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="number"
+        android:hint="@string/InpHeiIn"
+        android:id="@+id/InpHeiIn"
+        android:layout_marginBottom="12dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="number"
+        android:hint="@string/InpWeight"
+        android:id="@+id/InpWeight"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BtmCal"
+        android:id="@+id/BtnCal"
+        android:layout_margin="12dp"
+        android:backgroundTint="#673AB7"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Result"
+        android:textSize="31sp"
+        android:textStyle="bold"
+        android:id="@+id/FinRes"/>
+
+</LinearLayout>
